@@ -1,0 +1,17 @@
+name: DiscordMC
+version: '${project.version}'
+main: com.diffusemovie.dmc.Main
+api-version: 1.19
+authors: [ DiffuseMovie340 ]
+description: A plugin that adds Discord compatiblity to Minecraft.
+commands:
+  config:
+    description: Configures the plugin settings. Required for first setup.
+  tune:
+    description: Tunes your feed to the channel you are connected to.
+  blockdiscord:
+    description: Block Discord for a user.
+  togglediscord:
+    description: Toggle discord chat for yourself.
+
+
